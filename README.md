@@ -1,5 +1,18 @@
 # ZfMicroFramework - a micro framework built on ZF2
 
+**Project has moved and will from now on be maintained by 
+[Kathryn Reeve](https://github.com/BinaryKitten)
+under its new name ["ZeffMu"](https://github.com/BinaryKitten/ZeffMu).**
+
+BinaryKitten can handle any further development and this is surely the
+best, since here it would be just another started PoC that never becomes
+mature.
+
+**I will keep these docs for reference for a couple of days. Please
+refer to the new project page for installation and usage notes.**
+
+## Overview
+
 This project is a simple example of how ZF2 could be used to build a 
 really simple micro-framework. It looks exactly like 
 [silex](http://silex.sensiolabs.org/), but its core is basically a 
@@ -15,13 +28,7 @@ how similar/different the architectures of Silex and ZF2 are.
 
 ## Installation:
 
-In a project with a `composer.json` file, type following in your console.
-
-```sh
-$ composer require ocramius/zf-micro-framework
-```
-
-You can type `*` as a required version.
+Please refer to documentation of [ZeffMu](https://github.com/BinaryKitten/ZeffMu).
 
 ## Usage:
 
@@ -70,8 +77,3 @@ $app->run();
  * Assembling routes does not yet work
  * Helper methods (view helpers/controller plugins) utilities are not yet accessible in a
    simple way from the application object. Some simple shortcuts may help.
-
-## Advanced usage
-
- * TBD: services
- * TBD: events
